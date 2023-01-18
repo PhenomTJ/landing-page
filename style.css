@@ -207,3 +207,16 @@ blockquote {
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.footer-text {
+    font-size: 1.6rem;
+    color: #F9FAF8;
+}
