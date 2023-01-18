@@ -103,11 +103,9 @@ body {
     border: 1px solid #3882F6;
 }
 
-.main {
-    text-align: center;
-}
 
 .info-section {
+    text-align: center;
     margin-bottom: 10rem;
 }
 
@@ -143,7 +141,7 @@ body {
 
 .testimonial-section {
     background-color: #E5E7EB;
-    padding: 15rem;
+    padding: 10rem;
 }
 
 blockquote {
@@ -151,7 +149,7 @@ blockquote {
     margin: 0 auto;
 }
 
-blockquote span {
+.testimonial-author {
     font-size: 2.6rem;
     font-weight: 700;
     color: #1f2937;
@@ -166,3 +164,46 @@ blockquote span {
     text-align: start;
 }
 
+.cta-section {
+    padding: 10rem;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 100rem;
+    margin: 0 auto;
+    padding: 5rem 10rem;
+}
+
+.cta-text h3{
+    color: #E5E7EB;
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.cta-button {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
